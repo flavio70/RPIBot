@@ -22,7 +22,7 @@ Installation
 
 	> cd /srv
 
-	> sudo git clone ssh://151.98.52.73:Automation/RPIBot.git
+	> sudo git clone git@151.98.52.73:Automation/RPIBot.git
 
 
 Configuration

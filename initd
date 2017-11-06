@@ -1,0 +1,84 @@
+#!/bin/sh
+# Start/stop the servergpio daemon.
+#
+### BEGIN INIT INFO
+# Provides:          rpibot
+# Required-Start:    $local_fs $network $named $time $syslog
+# Required-Stop:     $local_fs $network $named $time $syslog
+# Default-Start:     2 3 4 5
+# Default-Stop:      0 1 6
+# Short-Description: Regular background program processing daemon
+# Description:       start telegram bot for rpi management 
+
+### END INIT INFO
+
+
+#. /lib/lsb/init-functions
+. /etc/init.d/functions
+
+PATH=/bin:/usr/bin:/sbin:/usr/sbin
+DESC="RPI Telegram bot service"
+NAME=rpibot
+SCRIPT=/tools/smotools/PACKAGES/RPIBot/telegrambot.py
+DAEMON='/tools/smotools/PACKAGES/RPIBot/telegrambot.py &'
+lockfile=/var/lock/subsys/telegrambot
+SCRIPTNAME=/etc/init.d/"$NAME"
+RUNAS1=root
+
+prog=$(basename $SCRIPT)
+
+test -f $SCRIPT || exit 0
+
+
+rh_status() {
+    status $prog
+}
+
+
+
+start() {
+    [ -x $SCRIPT ] || exit 5
+    echo -n $"Starting $prog: "
+    daemon $SCRIPT
+    retval=$?
+    echo
+    [ $retval -eq 0 ] && touch $lockfile
+    return $retval
+}
+
+
+stop() {
+    echo -n $"Stopping $prog: "
+    killproc $prog -QUIT
+    retval=$?
+    echo
+    [ $retval -eq 0 ] && rm -f $lockfile
+    return $retval
+}
+
+
+
+
+case "$1" in
+    start)
+        rh_status_q && exit 0
+        $1
+        ;;
+    stop)
+        rh_status_q || exit 0
+        $1
+        ;;  
+    status)
+        rh_status
+        ;;
+    *)
+        echo $"Usage: $0 {start|stop|status}"
+        exit 2
+esac
+
+
+
+
+exit 0
+
+

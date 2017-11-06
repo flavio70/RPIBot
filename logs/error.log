@@ -1,0 +1,75 @@
+31/Oct/17 13:32:44 - [telegrambot.py:48] - ERROR	[Errno 111] Connection refused
+31/Oct/17 16:53:41 - [telegrambot.py:48] - ERROR	[Errno 111] Connection refused
+02/Nov/17 11:50:49 - [telegrambot.py:67] - ERROR	<Fault 1: '<class \'Exception\'>:method "getGPIOStatus" is not supported'>
+02/Nov/17 11:51:52 - [telegrambot.py:67] - ERROR	<Fault 1: '<class \'Exception\'>:method "getGPIOStatus" is not supported'>
+02/Nov/17 11:53:28 - [telegrambot.py:67] - ERROR	<Fault 1: "<class 'NameError'>:name 'prePinStatusList' is not defined">
+02/Nov/17 12:01:48 - [telegrambot.py:68] - ERROR	too many values to unpack (expected 2)
+02/Nov/17 12:02:33 - [telegrambot.py:68] - ERROR	[Errno 111] Connection refused
+02/Nov/17 12:02:33 - [telegrambot.py:48] - ERROR	[Errno 111] Connection refused
+02/Nov/17 12:02:52 - [telegrambot.py:68] - ERROR	too many values to unpack (expected 2)
+02/Nov/17 13:00:18 - [telegrambot.py:80] - ERROR	'str' object has no attribute 'read'
+02/Nov/17 13:00:54 - [telegrambot.py:80] - ERROR	'int' object is not iterable
+02/Nov/17 13:02:47 - [telegrambot.py:81] - ERROR	'int' object is not iterable
+02/Nov/17 13:16:23 - [telegrambot.py:77] - ERROR	%i format: a number is required, not str
+02/Nov/17 13:37:30 - [telegrambot.py:77] - ERROR	<Fault 1: '<class \'Exception\'>:method "getGPIOStatus" is not supported'>
+02/Nov/17 13:37:30 - [telegrambot.py:77] - ERROR	<Fault 1: '<class \'Exception\'>:method "getGPIOStatus" is not supported'>
+02/Nov/17 13:37:30 - [telegrambot.py:77] - ERROR	<Fault 1: '<class \'Exception\'>:method "getGPIOStatus" is not supported'>
+02/Nov/17 13:37:30 - [telegrambot.py:77] - ERROR	<Fault 1: '<class \'Exception\'>:method "getGPIOStatus" is not supported'>
+02/Nov/17 13:37:30 - [telegrambot.py:77] - ERROR	<Fault 1: '<class \'Exception\'>:method "getGPIOStatus" is not supported'>
+02/Nov/17 13:37:30 - [telegrambot.py:77] - ERROR	<Fault 1: '<class \'Exception\'>:method "getGPIOStatus" is not supported'>
+02/Nov/17 13:37:30 - [telegrambot.py:77] - ERROR	<Fault 1: '<class \'Exception\'>:method "getGPIOStatus" is not supported'>
+02/Nov/17 13:37:30 - [telegrambot.py:77] - ERROR	<Fault 1: '<class \'Exception\'>:method "getGPIOStatus" is not supported'>
+02/Nov/17 13:37:30 - [telegrambot.py:77] - ERROR	<Fault 1: '<class \'Exception\'>:method "getGPIOStatus" is not supported'>
+02/Nov/17 13:37:30 - [telegrambot.py:77] - ERROR	<Fault 1: '<class \'Exception\'>:method "getGPIOStatus" is not supported'>
+02/Nov/17 13:37:30 - [telegrambot.py:77] - ERROR	<Fault 1: '<class \'Exception\'>:method "getGPIOStatus" is not supported'>
+02/Nov/17 13:37:30 - [telegrambot.py:77] - ERROR	<Fault 1: '<class \'Exception\'>:method "getGPIOStatus" is not supported'>
+02/Nov/17 13:37:30 - [telegrambot.py:77] - ERROR	<Fault 1: '<class \'Exception\'>:method "getGPIOStatus" is not supported'>
+02/Nov/17 13:37:30 - [telegrambot.py:77] - ERROR	<Fault 1: '<class \'Exception\'>:method "getGPIOStatus" is not supported'>
+02/Nov/17 13:37:30 - [telegrambot.py:77] - ERROR	<Fault 1: '<class \'Exception\'>:method "getGPIOStatus" is not supported'>
+02/Nov/17 13:37:30 - [telegrambot.py:77] - ERROR	<Fault 1: '<class \'Exception\'>:method "getGPIOStatus" is not supported'>
+02/Nov/17 13:37:30 - [telegrambot.py:77] - ERROR	<Fault 1: '<class \'Exception\'>:method "getGPIOStatus" is not supported'>
+02/Nov/17 13:37:30 - [telegrambot.py:77] - ERROR	<Fault 1: '<class \'Exception\'>:method "getGPIOStatus" is not supported'>
+02/Nov/17 13:37:30 - [telegrambot.py:77] - ERROR	<Fault 1: '<class \'Exception\'>:method "getGPIOStatus" is not supported'>
+02/Nov/17 13:37:30 - [telegrambot.py:77] - ERROR	<Fault 1: '<class \'Exception\'>:method "getGPIOStatus" is not supported'>
+02/Nov/17 13:37:30 - [telegrambot.py:77] - ERROR	<Fault 1: '<class \'Exception\'>:method "getGPIOStatus" is not supported'>
+02/Nov/17 13:37:30 - [telegrambot.py:77] - ERROR	<Fault 1: '<class \'Exception\'>:method "getGPIOStatus" is not supported'>
+02/Nov/17 13:37:30 - [telegrambot.py:77] - ERROR	<Fault 1: '<class \'Exception\'>:method "getGPIOStatus" is not supported'>
+02/Nov/17 13:37:30 - [telegrambot.py:77] - ERROR	<Fault 1: '<class \'Exception\'>:method "getGPIOStatus" is not supported'>
+02/Nov/17 13:37:30 - [telegrambot.py:77] - ERROR	<Fault 1: '<class \'Exception\'>:method "getGPIOStatus" is not supported'>
+02/Nov/17 13:37:30 - [telegrambot.py:77] - ERROR	<Fault 1: '<class \'Exception\'>:method "getGPIOStatus" is not supported'>
+02/Nov/17 13:37:30 - [telegrambot.py:77] - ERROR	<Fault 1: '<class \'Exception\'>:method "getGPIOStatus" is not supported'>
+02/Nov/17 13:37:30 - [telegrambot.py:77] - ERROR	<Fault 1: '<class \'Exception\'>:method "getGPIOStatus" is not supported'>
+02/Nov/17 13:37:30 - [telegrambot.py:77] - ERROR	<Fault 1: '<class \'Exception\'>:method "getGPIOStatus" is not supported'>
+02/Nov/17 13:37:30 - [telegrambot.py:77] - ERROR	<Fault 1: '<class \'Exception\'>:method "getGPIOStatus" is not supported'>
+02/Nov/17 13:45:16 - [telegrambot.py:77] - ERROR	<Fault 1: '<class \'Exception\'>:method "getGPIOStatus" is not supported'>
+02/Nov/17 13:45:16 - [telegrambot.py:77] - ERROR	<Fault 1: '<class \'Exception\'>:method "getGPIOStatus" is not supported'>
+02/Nov/17 13:45:16 - [telegrambot.py:77] - ERROR	<Fault 1: '<class \'Exception\'>:method "getGPIOStatus" is not supported'>
+02/Nov/17 13:45:16 - [telegrambot.py:77] - ERROR	<Fault 1: '<class \'Exception\'>:method "getGPIOStatus" is not supported'>
+02/Nov/17 13:45:16 - [telegrambot.py:77] - ERROR	<Fault 1: '<class \'Exception\'>:method "getGPIOStatus" is not supported'>
+02/Nov/17 13:45:16 - [telegrambot.py:77] - ERROR	<Fault 1: '<class \'Exception\'>:method "getGPIOStatus" is not supported'>
+02/Nov/17 13:45:16 - [telegrambot.py:77] - ERROR	<Fault 1: '<class \'Exception\'>:method "getGPIOStatus" is not supported'>
+02/Nov/17 13:45:16 - [telegrambot.py:77] - ERROR	<Fault 1: '<class \'Exception\'>:method "getGPIOStatus" is not supported'>
+02/Nov/17 13:45:16 - [telegrambot.py:77] - ERROR	<Fault 1: '<class \'Exception\'>:method "getGPIOStatus" is not supported'>
+02/Nov/17 13:45:16 - [telegrambot.py:77] - ERROR	<Fault 1: '<class \'Exception\'>:method "getGPIOStatus" is not supported'>
+02/Nov/17 13:45:16 - [telegrambot.py:77] - ERROR	<Fault 1: '<class \'Exception\'>:method "getGPIOStatus" is not supported'>
+02/Nov/17 13:45:16 - [telegrambot.py:77] - ERROR	<Fault 1: '<class \'Exception\'>:method "getGPIOStatus" is not supported'>
+02/Nov/17 13:45:16 - [telegrambot.py:77] - ERROR	<Fault 1: '<class \'Exception\'>:method "getGPIOStatus" is not supported'>
+02/Nov/17 13:45:16 - [telegrambot.py:77] - ERROR	<Fault 1: '<class \'Exception\'>:method "getGPIOStatus" is not supported'>
+02/Nov/17 13:45:16 - [telegrambot.py:77] - ERROR	<Fault 1: '<class \'Exception\'>:method "getGPIOStatus" is not supported'>
+02/Nov/17 13:45:16 - [telegrambot.py:77] - ERROR	<Fault 1: '<class \'Exception\'>:method "getGPIOStatus" is not supported'>
+02/Nov/17 13:45:16 - [telegrambot.py:77] - ERROR	<Fault 1: '<class \'Exception\'>:method "getGPIOStatus" is not supported'>
+02/Nov/17 13:45:16 - [telegrambot.py:77] - ERROR	<Fault 1: '<class \'Exception\'>:method "getGPIOStatus" is not supported'>
+02/Nov/17 13:45:16 - [telegrambot.py:77] - ERROR	<Fault 1: '<class \'Exception\'>:method "getGPIOStatus" is not supported'>
+02/Nov/17 13:45:16 - [telegrambot.py:77] - ERROR	<Fault 1: '<class \'Exception\'>:method "getGPIOStatus" is not supported'>
+02/Nov/17 13:45:16 - [telegrambot.py:77] - ERROR	<Fault 1: '<class \'Exception\'>:method "getGPIOStatus" is not supported'>
+02/Nov/17 13:45:16 - [telegrambot.py:77] - ERROR	<Fault 1: '<class \'Exception\'>:method "getGPIOStatus" is not supported'>
+02/Nov/17 13:45:16 - [telegrambot.py:77] - ERROR	<Fault 1: '<class \'Exception\'>:method "getGPIOStatus" is not supported'>
+02/Nov/17 13:45:16 - [telegrambot.py:77] - ERROR	<Fault 1: '<class \'Exception\'>:method "getGPIOStatus" is not supported'>
+02/Nov/17 13:45:16 - [telegrambot.py:77] - ERROR	<Fault 1: '<class \'Exception\'>:method "getGPIOStatus" is not supported'>
+02/Nov/17 13:45:16 - [telegrambot.py:77] - ERROR	<Fault 1: '<class \'Exception\'>:method "getGPIOStatus" is not supported'>
+02/Nov/17 13:45:16 - [telegrambot.py:77] - ERROR	<Fault 1: '<class \'Exception\'>:method "getGPIOStatus" is not supported'>
+02/Nov/17 13:45:16 - [telegrambot.py:77] - ERROR	<Fault 1: '<class \'Exception\'>:method "getGPIOStatus" is not supported'>
+02/Nov/17 13:45:16 - [telegrambot.py:77] - ERROR	<Fault 1: '<class \'Exception\'>:method "getGPIOStatus" is not supported'>
+02/Nov/17 13:45:16 - [telegrambot.py:77] - ERROR	<Fault 1: '<class \'Exception\'>:method "getGPIOStatus" is not supported'>
+02/Nov/17 13:51:59 - [telegrambot.py:49] - ERROR	[Errno 111] Connection refused
+02/Nov/17 13:52:20 - [telegrambot.py:49] - ERROR	[Errno 111] Connection refused

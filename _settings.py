@@ -23,7 +23,8 @@ class rpi():
 
 class _logConst():
 
-    LOG_DIR = BASE_DIR + '/logs'
+    #LOG_DIR = BASE_DIR + '/logs'
+    LOG_DIR = '/var/log/RPIBOT'
     LOG_SETTINGS = BASE_DIR + '/logging.json'
     ERROR_LOG = LOG_DIR +'/error.log'
     MAIN_LOG = LOG_DIR +'/main.log'

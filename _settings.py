@@ -8,6 +8,14 @@ PKG_DIR = os.path.dirname(os.path.abspath(__file__))
 BASE_DIR = PKG_DIR
 
 
+DATABASE = {
+    'NAME': 'KATE' ,
+	'USER': 'smosql' ,
+	'PASSWORD' : 'sm@ptics' ,
+	'PORT': '3306' ,
+	'HOST': '151.98.52.73'
+    }
+
 class rpi():
     def __init__(self):
         print('\nRPIBot RPI Object initialization...')
@@ -43,7 +51,7 @@ class frmkLog():
         
         return logging.getLogger(name)
 
-
+'''
 class botUsers():
 
     def __init__(self):
@@ -72,6 +80,6 @@ class DB():
         }
     def getDB(self):
         return self._DATABASES
-
+'''
 
 

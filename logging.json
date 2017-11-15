@@ -42,6 +42,11 @@
 		    "level": "DEBUG",
 		    "handlers": ["console", "debug_file_handler", "error_file_handler"],
 		    "propagate": "yes"
+        },
+         "DBClass.py": {
+		    "level": "DEBUG",
+		    "handlers": ["console", "debug_file_handler", "error_file_handler"],
+		    "propagate": "yes"
         }
         
     }

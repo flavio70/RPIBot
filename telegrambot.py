@@ -21,6 +21,8 @@ ko = u'\U0001F534'
 ok = u'\U0001F535'
 alert = u'\U000026A0'
 temperature = u'\U0001F321'
+info = u'\U00002139'
+done = u'\U00002714'
 
 POLLING_TIME=60
 TEMP_TH = 70.1
@@ -173,7 +175,7 @@ def handle(msg):
             bot.sendMessage(chat_id,'%s Hello from RPI Bot\nPlease send /help command\nfor list of supported commands'%happy)
 
         elif message == '/help':
-            bot.sendMessage(chat_id,'List of supported commands \n/start\n/checkrpi\n/getrpitemp\n/getracksbyrpi\n/getracksbyrow\n/seton Rack Row (Rxx yy[A,B])\n/setoff Rack Row (Rxx yy[A,B])')
+            bot.sendMessage(chat_id,'%s List of supported commands \n/start\n/checkrpi\n/getrpitemp\n/getracksbyrpi\n/getracksbyrow\n/seton Rack Row (Rxx yy[A,B])\n/setoff Rack Row (Rxx yy[A,B])'%info)
 
         elif message == '/checkrpi':
             statusicon = ok
@@ -208,7 +210,8 @@ def handle(msg):
             mystr=''
             for elem in rows: mystr = '%sRow %i: %i %s / %i %s\n'%(mystr,elem,rows[elem][0],ok,rows[elem][1],ko)
             bot.sendMessage(chat_id,'%s Rack Status:\n\nTOTAL RACKS RETURNED: %i\nStatus: %i %s / %i %s\n\n%s'%(tool,count,totON,ok,totOFF,ko,mystr))
-            
+
+        elif message == '/seton': bot.sendMessage(chat_id,'%s Bad command format\nUse /seton Rxx yy[A,B]\n i.e. /seton R22 15A'%info)        
         elif re.match('/seton R[0-9]+ [0-9]+[AB]',message):
             res=message.split()
             rackd=hostDB.getRackDetails(res[1].replace('R',''),res[2])
@@ -220,13 +223,13 @@ def handle(msg):
                 rack = rackd[0]['rack']
                 bot.sendMessage(chat_id,'Setting to ON Row %s, rack %s...'%(row,rack))
                 if setRack(rpi,pin,'ON',user['username']):
-                    bot.sendMessage(chat_id,'%s ...Done!!!'%(tool))
+                    bot.sendMessage(chat_id,'%s ...Done!!!'%(done))
                 else:
                     bot.sendMessage(chat_id,'%s ...ERROR!!!'%(alert))
             else:
                 bot.sendMessage(chat_id,'Row %s, rack %s not found in DB\nMaybe not under RPI control?'%(res[1],res[2]))
                 
-                
+        elif message == '/setoff': bot.sendMessage(chat_id,'%s Bad command format\nUse /setoff Rxx yy[A,B]\n i.e. /setoff R22 15A'%info)               
         elif re.match('/setoff R[0-9]+ [0-9]+[AB]',message):
             res=message.split()
             rackd=hostDB.getRackDetails(res[1].replace('R',''),res[2])
@@ -238,7 +241,7 @@ def handle(msg):
                 rack = rackd[0]['rack']
                 bot.sendMessage(chat_id,'Setting to OFF Row %s, rack %s...'%(row,rack))
                 if setRack(rpi,pin,'OFF',user['username']):
-                    bot.sendMessage(chat_id,'%s ...Done!!!'%(tool))
+                    bot.sendMessage(chat_id,'%s ...Done!!!'%(done))
                 else:
                     bot.sendMessage(chat_id,'%s ...ERROR!!!'%(alert))
             else:

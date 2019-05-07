@@ -39,7 +39,7 @@ rh_status() {
 start() {
     [ -x $SCRIPT ] || exit 5
     echo -n $"Starting $prog: "
-    daemon $SCRIPT
+    daemon $DAEMON
     retval=$?
     echo
     [ $retval -eq 0 ] && touch $lockfile
